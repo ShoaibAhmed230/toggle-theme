@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+
+}
+.main{
+    width: 70%;
+    margin: auto;
+}
+.head{
+    top: 0;
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    background: white;
+    height: 100px;
+    
+}
+.heading{
+    display: flex;
+    align-items: center
+}
+.heading #sp{
+    margin: 0px 15px;
+}
+.heading h1{
+    color: #222;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.heading #ac{
+    color: #0493d3;
+    font-family: Georgia,serif;
+    font-style: italic;
+    font-size: 24px;
+    
+}
+
+.icons button img{
+    width: 25px;
+}
+.icons button{
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    background-color: white
+
+}
+button:hover{
+    background-color: rgb(241, 238, 238);
+}
+button:focus{
+    border: none;
+    outline: none;
+}
+p{
+    color: #222;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    font-family: sans-serif;
+}
